@@ -11,7 +11,11 @@ void mostrarCarta (int valor, char palo);//Se hace prototipo de la nueva funcion
 
 int main () {
     initAleatorio();// Funcion sacada de nuestra libreria local aleatorio que servira como srand
+    int valorAleatorioCarta = valorCarta();
+    char elPalo = obtenerPaloAleatorio();
 
+    printf("Carta generada: ");
+    mostrarCarta(valorAleatorioCarta, elPalo);
 
     return 0;
 }
