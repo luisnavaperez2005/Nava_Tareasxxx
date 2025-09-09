@@ -14,3 +14,10 @@ int main () {
     return 0;
 }
 
+int valorCarta() {
+    int valor = 1;
+    valor = rand () % 13 + 1;
+    return valor;
+
+}
+
