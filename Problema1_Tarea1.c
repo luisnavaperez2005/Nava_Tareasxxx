@@ -9,6 +9,8 @@ char obtenerPaloAleatorio ();//Se hace el prototipo de la Funcion
 
 int main () {
     initAleatorio();//Se llama la funcion de "aleatorio.h" que es srand
+    char elResultado = obtenerPaloAleatorio();
+    printf ("El palo generado es: %c", elResultado);
 
     return 0;
 }
