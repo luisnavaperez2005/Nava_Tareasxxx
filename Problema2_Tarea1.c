@@ -9,7 +9,8 @@ int valorCarta ();//prototipo de nuestra funcion
 
 int main () {
     initAleatorio();//funcion sacada de aleatorio.c que servira como srand
-
+    int valorAleatorioCarta = valorCarta();
+    printf ("El numero de carta aleatorio es: %d", valorAleatorioCarta);
 
     return 0;
 }
